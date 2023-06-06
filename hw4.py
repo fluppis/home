@@ -10,11 +10,11 @@ elif t== '*' :
 elif y==0  :
     if y==0 :
         print('Зараз викличу поліцію')
-        h = int(input('Спробуй ще раз ввести чісло 2:'))
-        if h==0:
+        y = int(input('Спробуй ще раз ввести чісло 2:'))
+        if y==0:
             print('Зі скотиняками не працюю-пока')
-        elif h>0:
-            print(x/h)
+        elif y>0:
+            print(x/y)
 elif t== '/':
     print(x/y)
 
