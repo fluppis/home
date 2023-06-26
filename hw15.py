@@ -36,4 +36,4 @@ elif d > 15:
         print(d + h1.zfill(2), m1.zfill(2), s.zfill(2), sep=':')
     else:
         d = str(d) + ' днів, '
-        print(d + h1.zfill(2), m1.zfill(2), s.zfill(2), sep=':')xx
+        print(d + h1.zfill(2), m1.zfill(2), s.zfill(2), sep=':')
