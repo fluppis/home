@@ -17,7 +17,7 @@ d2 = len(d1) - 1
 d3 = d1[d2]
 d = int(d)
 d3 = int(d3)
-if d <= 15:
+if 0 <= d <= 15:
     if d == 1:
         d = str(d) + ' день, '
         print(d + h1.zfill(2), m1.zfill(2), s.zfill(2), sep=':')
@@ -27,7 +27,7 @@ if d <= 15:
     else:
         d = str(d) + ' днів, '
         print(d + h1.zfill(2), m1.zfill(2), s.zfill(2), sep=':')
-elif d > 15:
+elif 15 < d < 100 :
     if d3 == 1:
         d = str(d) + ' день, '
         print(d + h1.zfill(2), m1.zfill(2), s.zfill(2), sep=':')
