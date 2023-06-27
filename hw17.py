@@ -1,9 +1,10 @@
 def correct_sentence(text):
-    if '.' in text :
-        return (text.capitalize())
+    if '.' in text:
+        return text.capitalize()
     else:
-        return (text.capitalize() + ".")
-correct_sentence("greetings, friends")
+        return text.capitalize() + "."
+
+
 assert correct_sentence("greetings, friends") == "Greetings, friends.", 'Test1'
 assert correct_sentence("hello") == "Hello.", 'Test2'
 assert correct_sentence("Greetings, friends") == "Greetings, friends.", 'Test3'
