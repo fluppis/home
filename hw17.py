@@ -1,7 +1,7 @@
 def correct_sentence(text):
-    x=(text)
-    y=len(x) - 1
-    b=x[y]
+    x = text
+    y = len(x) - 1
+    b = x[y]
     if b == '.':
         return text.capitalize()
     else:
