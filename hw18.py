@@ -12,3 +12,4 @@ assert second_index("hi", "h") is None, 'Test3'
 assert second_index("Hello, hello", "lo") == 10, 'Test4'
 assert second_index("Hillo, hello", "e") is None, 'Test5'
 print('ОК')
+
